@@ -1,0 +1,31 @@
+#container{
+  display: grid;
+  grid-template-areas: "banner posts posts";
+  grid-template-rows: 100vh;
+}
+
+.bannerSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1620421681758-cd89f531661f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1365&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: banner;
+}
+
+.bannerSection span {
+  font-size: 50pt; 
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Shrikhand', serif;
+  color: rgb(207, 137, 6);
+  border: 5px double rgb(207, 137, 6);;
+}
+
+.postSection{
+  grid-area: posts;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-areas: "banner posts posts";
+  grid-template-rows: 100vh;
+}
