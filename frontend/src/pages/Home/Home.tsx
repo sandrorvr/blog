@@ -1,4 +1,5 @@
 import './Home.css'
+import { PostHome } from '../../components/PostHome';
 
 function Home() {
 
@@ -7,7 +8,13 @@ function Home() {
       <section className='bannerSection'>
         <span>Sandro Jr.</span>
       </section>
-      <section className='postSection'></section>
+      <section className='postSection'>
+        <div className='postsContent'>
+          <PostHome />
+          <PostHome />
+          <PostHome />
+        </div>
+      </section>
     </div>
   )
 }
