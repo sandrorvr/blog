@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+#linkedin {
+    font-family: 'Young Serif', serif;
+    font-style: 'none';
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
